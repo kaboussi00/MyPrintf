@@ -6,7 +6,7 @@
 /*   By: kaboussi <kaboussi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 19:11:31 by kaboussi          #+#    #+#             */
-/*   Updated: 2022/11/24 19:42:08 by kaboussi         ###   ########.fr       */
+/*   Updated: 2022/11/29 12:51:53 by kaboussi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,11 @@ int		ft_putnbr(int n);
 int		ft_putnbrunsignedint(unsigned int n);
 int		ft_hexadecimal(unsigned long n, int x);
 int		ft_pointer(unsigned long p);
+int		check_man(char c);
+int		check_bonus(char c);
 int		ft_poursantage(char c, va_list taxi);
+int		ft_poursantage_bonus(char c1, char c2, va_list taxi);
+int		ft_return(const char *bibo, va_list taxi);
 int		ft_printf(const char *bibo, ...);
 
 #endif
